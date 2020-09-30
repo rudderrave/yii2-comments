@@ -6,8 +6,6 @@ use Yii;
 
 /**
  * Comments Module For Yii2 Framework
- *
- * @author Taras Makitra <makitrataras@gmail.com>
  */
 class Comments extends \yii\base\Module
 {
@@ -246,5 +244,4 @@ class Comments extends \yii\base\Module
 
         return $language . $url;
     }
-
 }
